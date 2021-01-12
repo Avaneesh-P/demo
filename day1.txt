@@ -1,0 +1,15 @@
+Name -: AVANEESH PANDEY
+Day-1
+1.) Find the time complexity for the following.
+a.) for(i=1;i<=n;i++)
+      for(j=i;i<=n;j++)
+      printf("Hi");
+Ans-: Time complexity means Number of instruction executed.
+i loop from 1 to n,and j loop i to n.
+so  ,  T(n)=O(n2) .
+
+b.) for(i=1;i<=n;i*=3)
+     for(j=1;i<=n;i++)
+       printf("Hello");
+Ans-: i loop time complexity is O(log n),and j loop from 0 to n.
+so T(n)=O(nlogn) .
